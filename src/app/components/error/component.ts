@@ -36,4 +36,8 @@ export class ErrorComponent {
         });
     }
 
+    serviceError() {
+        this.http.get('sdasd').subscribe();
+    }
+
 }
